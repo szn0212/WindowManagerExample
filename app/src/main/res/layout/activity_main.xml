@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="windowmanager.project.angel.com.windowmanagerexample.MainActivity">
+
+
+    <Button
+        android:id="@+id/startService"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="64dp"
+        android:text="启动Service"
+        android:onClick="startServiceClick"/>
+
+
+    <Button
+        android:id="@+id/stopService"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="64dp"
+        android:text="停止Service"
+        android:onClick="stopServiceClick"/>
+
+    <Button
+        android:id="@+id/toSearch"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginRight="64dp"
+        android:text="去搜索界面"
+        android:onClick="toSearchClick"/>
+</LinearLayout>
